@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5634EAA1FFFC1C300BE43F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5634EA91FFFC1C300BE43F7 /* AppDelegate.swift */; };
+		B5634EAC1FFFC1C300BE43F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5634EAB1FFFC1C300BE43F7 /* ViewController.swift */; };
+		B5634EAF1FFFC1C300BE43F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5634EAD1FFFC1C300BE43F7 /* Main.storyboard */; };
+		B5634EB11FFFC1C300BE43F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5634EB01FFFC1C300BE43F7 /* Assets.xcassets */; };
+		B5634EB41FFFC1C300BE43F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5634EB21FFFC1C300BE43F7 /* LaunchScreen.storyboard */; };
+		B5634EBC1FFFC25200BE43F7 /* WRDGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5634EBB1FFFC25200BE43F7 /* WRDGame.swift */; };
+		B5634EBE1FFFC3B100BE43F7 /* WRDGameSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5634EBD1FFFC3B100BE43F7 /* WRDGameSetup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5634EA61FFFC1C300BE43F7 /* WRDGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WRDGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5634EA91FFFC1C300BE43F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5634EAB1FFFC1C300BE43F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5634EAE1FFFC1C300BE43F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5634EB01FFFC1C300BE43F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5634EB31FFFC1C300BE43F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5634EB51FFFC1C300BE43F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5634EBB1FFFC25200BE43F7 /* WRDGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRDGame.swift; sourceTree = "<group>"; };
+		B5634EBD1FFFC3B100BE43F7 /* WRDGameSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRDGameSetup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5634EA31FFFC1C300BE43F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5634E9D1FFFC1C300BE43F7 = {
+			isa = PBXGroup;
+			children = (
+				B5634EA81FFFC1C300BE43F7 /* WRDGame */,
+				B5634EA71FFFC1C300BE43F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5634EA71FFFC1C300BE43F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5634EA61FFFC1C300BE43F7 /* WRDGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5634EA81FFFC1C300BE43F7 /* WRDGame */ = {
+			isa = PBXGroup;
+			children = (
+				B5634EA91FFFC1C300BE43F7 /* AppDelegate.swift */,
+				B5634EAB1FFFC1C300BE43F7 /* ViewController.swift */,
+				B5634EAD1FFFC1C300BE43F7 /* Main.storyboard */,
+				B5634EBD1FFFC3B100BE43F7 /* WRDGameSetup.swift */,
+				B5634EBB1FFFC25200BE43F7 /* WRDGame.swift */,
+				B5634EB01FFFC1C300BE43F7 /* Assets.xcassets */,
+				B5634EB21FFFC1C300BE43F7 /* LaunchScreen.storyboard */,
+				B5634EB51FFFC1C300BE43F7 /* Info.plist */,
+			);
+			path = WRDGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5634EA51FFFC1C300BE43F7 /* WRDGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5634EB81FFFC1C300BE43F7 /* Build configuration list for PBXNativeTarget "WRDGame" */;
+			buildPhases = (
+				B5634EA21FFFC1C300BE43F7 /* Sources */,
+				B5634EA31FFFC1C300BE43F7 /* Frameworks */,
+				B5634EA41FFFC1C300BE43F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WRDGame;
+			productName = WRDGame;
+			productReference = B5634EA61FFFC1C300BE43F7 /* WRDGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5634E9E1FFFC1C300BE43F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Adam Moore";
+				TargetAttributes = {
+					B5634EA51FFFC1C300BE43F7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B5634EA11FFFC1C300BE43F7 /* Build configuration list for PBXProject "WRDGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5634E9D1FFFC1C300BE43F7;
+			productRefGroup = B5634EA71FFFC1C300BE43F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5634EA51FFFC1C300BE43F7 /* WRDGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5634EA41FFFC1C300BE43F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5634EB41FFFC1C300BE43F7 /* LaunchScreen.storyboard in Resources */,
+				B5634EB11FFFC1C300BE43F7 /* Assets.xcassets in Resources */,
+				B5634EAF1FFFC1C300BE43F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5634EA21FFFC1C300BE43F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5634EBC1FFFC25200BE43F7 /* WRDGame.swift in Sources */,
+				B5634EBE1FFFC3B100BE43F7 /* WRDGameSetup.swift in Sources */,
+				B5634EAC1FFFC1C300BE43F7 /* ViewController.swift in Sources */,
+				B5634EAA1FFFC1C300BE43F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5634EAD1FFFC1C300BE43F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5634EAE1FFFC1C300BE43F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5634EB21FFFC1C300BE43F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5634EB31FFFC1C300BE43F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5634EB61FFFC1C300BE43F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5634EB71FFFC1C300BE43F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5634EB91FFFC1C300BE43F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R23Z6QNT72;
+				INFOPLIST_FILE = WRDGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamandluna.WRDGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B5634EBA1FFFC1C300BE43F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R23Z6QNT72;
+				INFOPLIST_FILE = WRDGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamandluna.WRDGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5634EA11FFFC1C300BE43F7 /* Build configuration list for PBXProject "WRDGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5634EB61FFFC1C300BE43F7 /* Debug */,
+				B5634EB71FFFC1C300BE43F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5634EB81FFFC1C300BE43F7 /* Build configuration list for PBXNativeTarget "WRDGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5634EB91FFFC1C300BE43F7 /* Debug */,
+				B5634EBA1FFFC1C300BE43F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5634E9E1FFFC1C300BE43F7 /* Project object */;
+}
